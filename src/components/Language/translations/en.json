@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "about": "About Us",
+    "howItWorks": "How It Works", 
+    "faqs": "FAQs",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Smart AI chat with insights and features that grow your business",
+    "subtitle": "Connect with customers, understand their needs, and get tailored business recommendations. Stay on top with analytics, alerts, and powerful automations — all in one place. Effortless setup with free ready-made business website templates",
+    "joinWaitlist": "Join the waitlist",
+    "partnerships": "Partnerships & Investors",
+    "disclaimer": "By joining, you agree to receive product updates. No spam.",
+    "seeFeatures": "See features"
+  },
+  "features": {
+    "title": "What you get",
+    "subtitle": "Empowering SMBs with Tools That Drive Growth",
+    "chat": {
+      "title": "AI Chat & Inbox",
+      "description": "24/7 smart assistant that answers instantly, saves staff time, improves customer satisfaction, and seamlessly hands over to a human when needed."
+    },
+    "insights": {
+      "title": "Personalized Insights",
+      "description": "Real-time analytics that detect trends, highlight recurring requests, and provide clear recommendations to improve service and sales."
+    },
+    "alerts": {
+      "title": "Real-Time Alerts",
+      "description": "Instant notifications about important conversations, hot leads, or urgent issues — so you never miss a critical moment."
+    },
+    "website": {
+      "title": "Custom Business Website",
+      "description": "A professional, ready-made site generated automatically from your business details, with future options for manual and AI-driven customization."
+    },
+    "appointments": {
+      "title": "Appointments & Scheduling",
+      "description": "Simple calendar sync and booking links that reduce friction, save time, and prevent scheduling errors."
+    },
+    "email": {
+      "title": "Email & SMS Campaigns",
+      "description": "One place to manage broadcasts and automations, keeping your customers engaged and driving repeat business."
+    },
+    "integrations": {
+      "title": "Integrations (Coming Soon)",
+      "description": "Gradual connections with popular platforms like Google, Meta, WhatsApp, and Stripe for a seamless workflow."
+    },
+    "security": {
+      "title": "Secure & Reliable",
+      "description": "Enterprise-grade encryption and full ownership of your business data — building customer trust from day one."
+    }
+  },
+  "process": {
+    "title": "How It Works",
+    "subtitle": "From Setup to Growth — Step by Step",
+    "description": "Easily connect your business, start chatting with customers, and unlock actionable insights with zero complexity.",
+    "steps": {
+      "signup": {
+        "title": "Sign Up & Log In",
+        "description": "Register with one click, verify your email, and fill out a short business profile."
+      },
+      "businessDetails": {
+        "title": "Provide Business Details", 
+        "description": "Enter your business name, industry, opening hours, services/products, and relevant links or documents."
+      },
+      "chatWebsite": {
+        "title": "Chat Link & Website Ready",
+        "description": "The system generates a custom chat link for your business that you can share with customers via social media or embed on your website."
+      },
+      "insights": {
+        "title": "Insights & Recommendations",
+        "description": "AI analyzes customer conversations, identifies trends, sentiment, and recurring questions, and provides clear analytics and actionable recommendations."
+      },
+      "alerts": {
+        "title": "Real-Time Alerts",
+        "description": "Get instant alerts on spikes in inquiries, hot leads, or customer friction points — delivered directly to your dashboard and via email/SMS."
+      },
+      "expand": {
+        "title": "Expand Capabilities",
+        "description": "Connect your calendar for bookings, launch email/SMS campaigns, route complex chats to a human agent, and integrate with your CRM or business database."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "questions": {
+      "difference": {
+        "question": "What makes BizoraOne different from other chat tools?",
+        "answer": "Unlike standard chatbots, BizoraOne doesn't just reply — it analyzes conversations with your customers and turns them into clear insights and recommendations that help you grow your business."
+      },
+      "knowledge": {
+        "question": "Where does the system's knowledge come from?",
+        "answer": "All the information comes directly from the business owner: your products, services, working hours, and FAQs. This ensures the chat is accurate and fully tailored to your business."
+      },
+      "analytics": {
+        "question": "What kind of analytics will I see?",
+        "answer": "You'll get conversation trends, recurring customer needs, sentiment analysis, and actionable insights that show you what really matters to your customers."
+      },
+      "integrations": {
+        "question": "Do you integrate with other systems?",
+        "answer": "Not yet. Today the focus is on delivering smart insights and analytics. Integrations with calendars, CRM systems, and marketing tools are on the roadmap."
+      },
+      "security": {
+        "question": "How secure is my business data?",
+        "answer": "Your data is encrypted and kept private. Only you control the business details and insights generated from your customer conversations."
+      },
+      "gettingStarted": {
+        "question": "How fast can I get started?",
+        "answer": "Setup takes minutes: sign up, add your business details, and instantly get your personal chat link to share with customers."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 BizoraOne · Made for SMBs"
+  },
+  "accessibility": {
+    "title": "Accessibility Adjustments",
+    "subtitle": "Customize your browsing experience",
+    "reset": "Reset Settings",
+    "resetDesc": "Restore default preferences",
+    "poweredBy": "Powered By BizoraOne"
+  },
+  "contact": {
+    "title": "Get Involved — Help Us Empower Small Businesses",
+    "subtitle": "Choose how you'd like to engage with our mission to empower small businesses.",
+    "contribute": {
+      "title": "Contribute & Support Us",
+      "description": "Your support helps us deliver better tools for small businesses.",
+      "button": "Contribute Now"
+    },
+    "waitlist": {
+      "title": "Join the Waitlist",
+      "description": "Be the first to try new features and shape the future of BizoraOne.",
+      "button": "Join Waitlist",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLScy9SFlrd0rE-a3bTeBCiQGXYd2Kt6Sa5DXDCVnnHiHOACZig/viewform?usp=header"
+    },
+    "partnerships": {
+      "title": "Partnerships",
+      "description": "Let's build meaningful solutions for small businesses — together.",
+      "button": "Partner With Us"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Reach out directly at info@bizoraone.com (click to copy or start an email).",
+      "button": "Contact Us"
+    },
+    "share": {
+      "title": "Share Our Mission",
+      "description": "Every share helps another small business discover smarter tools."
+    }
+  }
+}

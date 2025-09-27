@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "howItWorks": "Comment Ça Marche",
+    "faqs": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Chat IA intelligent avec insights et fonctionnalités qui font grandir votre entreprise",
+    "subtitle": "Connectez-vous avec les clients, comprenez leurs besoins et obtenez des recommandations d'entreprise personnalisées. Restez au top avec des analyses, des alertes et des automatisations puissantes — tout en un seul endroit. Configuration sans effort avec des modèles de sites web d'entreprise gratuits prêts à l'emploi",
+    "joinWaitlist": "Rejoindre la liste d'attente",
+    "partnerships": "Partenariats et Investisseurs",
+    "disclaimer": "En rejoignant, vous acceptez de recevoir des mises à jour produit. Pas de spam.",
+    "seeFeatures": "Voir les fonctionnalités"
+  },
+  "features": {
+    "title": "Ce que vous obtenez",
+    "subtitle": "Autonomiser les PME avec des Outils qui Stimulent la Croissance",
+    "chat": {
+      "title": "Chat IA et Boîte de Réception",
+      "description": "Assistant intelligent 24/7 qui répond instantanément, fait gagner du temps au personnel, améliore la satisfaction client et transfère sans problème vers un humain quand nécessaire."
+    },
+    "insights": {
+      "title": "Insights Personnalisés",
+      "description": "Analytics en temps réel qui détectent les tendances, mettent en évidence les demandes récurrentes et fournissent des recommandations claires pour améliorer le service et les ventes."
+    },
+    "alerts": {
+      "title": "Alertes en Temps Réel",
+      "description": "Notifications instantanées sur les conversations importantes, les prospects chauds ou les problèmes urgents — pour ne jamais manquer un moment critique."
+    },
+    "website": {
+      "title": "Site Web d'Entreprise Personnalisé",
+      "description": "Un site professionnel et prêt à l'emploi généré automatiquement à partir des détails de votre entreprise, avec des options futures pour la personnalisation manuelle et pilotée par IA."
+    },
+    "appointments": {
+      "title": "Rendez-vous et Planification",
+      "description": "Synchronisation simple du calendrier et liens de réservation qui réduisent les frictions, font gagner du temps et préviennent les erreurs de planification."
+    },
+    "email": {
+      "title": "Campagnes Email et SMS",
+      "description": "Un endroit pour gérer les diffusions et automatisations, gardant vos clients engagés et stimulant les affaires récurrentes."
+    },
+    "integrations": {
+      "title": "Intégrations (Bientôt)",
+      "description": "Connexions graduelles avec des plateformes populaires comme Google, Meta, WhatsApp et Stripe pour un flux de travail sans problème."
+    },
+    "security": {
+      "title": "Sécurisé et Fiable",
+      "description": "Chiffrement de niveau entreprise et propriété complète de vos données d'entreprise — construisant la confiance client dès le premier jour."
+    }
+  },
+  "process": {
+    "title": "Comment Ça Marche",
+    "subtitle": "De la Configuration à la Croissance — Étape par Étape",
+    "description": "Connectez facilement votre entreprise, commencez à chatter avec les clients et débloquez des insights actionables avec zéro complexité.",
+    "steps": {
+      "signup": {
+        "title": "Inscription et Connexion",
+        "description": "Inscrivez-vous en un clic, vérifiez votre email et remplissez un court profil d'entreprise."
+      },
+      "businessDetails": {
+        "title": "Fournir les Détails de l'Entreprise",
+        "description": "Entrez le nom de votre entreprise, l'industrie, les heures d'ouverture, les services/produits et les liens ou documents pertinents."
+      },
+      "chatWebsite": {
+        "title": "Lien de Chat et Site Web Prêt",
+        "description": "Le système génère un lien de chat personnalisé pour votre entreprise que vous pouvez partager avec les clients via les réseaux sociaux ou intégrer sur votre site web."
+      },
+      "insights": {
+        "title": "Insights et Recommandations",
+        "description": "L'IA analyse les conversations clients, identifie les tendances, le sentiment et les questions récurrentes, et fournit des analyses claires et des recommandations actionables."
+      },
+      "alerts": {
+        "title": "Alertes en Temps Réel",
+        "description": "Recevez des alertes instantanées sur les pics de demandes, les leads chauds ou les points de friction client — livrées directement à votre tableau de bord et par email/SMS."
+      },
+      "expand": {
+        "title": "Étendre les Capacités",
+        "description": "Connectez votre calendrier pour les réservations, lancez des campagnes email/SMS, dirigez les chats complexes vers un agent humain et intégrez avec votre CRM ou base de données d'entreprise."
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "questions": {
+      "difference": {
+        "question": "Qu'est-ce qui rend BizoraOne différent des autres outils de chat ?",
+        "answer": "Contrairement aux chatbots standard, BizoraOne ne se contente pas de répondre — il analyse les conversations avec vos clients et les transforme en insights clairs et recommandations qui vous aident à faire croître votre entreprise."
+      },
+      "knowledge": {
+        "question": "D'où vient la connaissance du système ?",
+        "answer": "Toutes les informations viennent directement du propriétaire de l'entreprise : vos produits, services, heures de travail et FAQ. Cela assure que le chat est précis et entièrement adapté à votre entreprise."
+      },
+      "analytics": {
+        "question": "Quel type d'analyses vais-je voir ?",
+        "answer": "Vous obtiendrez des tendances de conversation, des besoins récurrents des clients, une analyse de sentiment et des insights actionables qui vous montrent ce qui compte vraiment pour vos clients."
+      },
+      "integrations": {
+        "question": "Vous intégrez-vous avec d'autres systèmes ?",
+        "answer": "Pas encore. Aujourd'hui, l'accent est mis sur la livraison d'insights intelligents et d'analyses. Les intégrations avec les calendriers, systèmes CRM et outils de marketing sont sur la feuille de route."
+      },
+      "security": {
+        "question": "À quel point mes données d'entreprise sont-elles sécurisées ?",
+        "answer": "Vos données sont chiffrées et gardées privées. Seul vous contrôlez les détails de l'entreprise et les insights générés à partir des conversations avec vos clients."
+      },
+      "gettingStarted": {
+        "question": "À quelle vitesse puis-je commencer ?",
+        "answer": "La configuration prend quelques minutes : inscrivez-vous, ajoutez les détails de votre entreprise et obtenez instantanément votre lien de chat personnel à partager avec les clients."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 BizoraOne · Fait pour les PME"
+  },
+  "accessibility": {
+    "title": "Ajustements d'Accessibilité",
+    "subtitle": "Personnalisez votre expérience de navigation",
+    "reset": "Réinitialiser les Paramètres",
+    "resetDesc": "Restaurer les préférences par défaut",
+    "poweredBy": "Propulsé par BizoraOne"
+  },
+  "contact": {
+    "title": "Impliquez-vous — Aidez-nous à Autonomiser les Petites Entreprises",
+    "subtitle": "Choisissez comment vous souhaitez vous engager dans notre mission d'autonomiser les petites entreprises.",
+    "contribute": {
+      "title": "Contribuez et Soutenez-nous",
+      "description": "Votre soutien nous aide à fournir de meilleurs outils aux petites entreprises.",
+      "button": "Contribuer Maintenant"
+    },
+    "waitlist": {
+      "title": "Rejoignez la Liste d'Attente",
+      "description": "Soyez le premier à essayer de nouvelles fonctionnalités et façonnez l'avenir de BizoraOne.",
+      "button": "Rejoindre la Liste",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSfE_EbCe-w-qmZTFZxXxKiZHfINejOzNjwFfrLo7luezD5Ubg/viewform?usp=header"
+    },
+    "partnerships": {
+      "title": "Partenariats",
+      "description": "Construisons des solutions significatives pour les petites entreprises — ensemble.",
+      "button": "Partenaires avec Nous"
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Contactez-nous directement à info@bizoraone.com (cliquez pour copier ou démarrer un email).",
+      "button": "Nous Contacter"
+    },
+    "share": {
+      "title": "Partagez Notre Mission",
+      "description": "Chaque partage aide une autre petite entreprise à découvrir des outils plus intelligents."
+    }
+  }
+}
