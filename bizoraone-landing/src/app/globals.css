@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { 
+  color-scheme: light; 
+  --a11y-font-scale: 1;
+  --a11y-text-size: 1;
+  --a11y-line-height: 1.5;
+  --a11y-letter-spacing: 0px;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+  /* Apply both Content Scaling and Text Size to the root so rem units scale */
+  font-size: calc(16px * var(--a11y-font-scale) * var(--a11y-text-size));
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Accessibility hooks */
+/* Enforce line-height and letter-spacing across text */
+html, body, body * {
+  line-height: var(--a11y-line-height) !important;
+  letter-spacing: var(--a11y-letter-spacing) !important;
+}
+
+/* Ensure all text elements respect accessibility settings */
+h1, h2, h3, h4, h5, h6, p, span, div, a, button, input, textarea, label {
+  line-height: var(--a11y-line-height) !important;
+  letter-spacing: var(--a11y-letter-spacing) !important;
+}
+
+/* When the a11y panel is open, avoid applying global filters to the page */
+body[data-a11y-panel-open] {
+  filter: none !important;
+}
+
+/* Color Adjustments */
+body[data-a11y-night-mode] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+body[data-a11y-dark-contrast] {
+  filter: contrast(1.2) brightness(0.8);
+}
+
+body[data-a11y-light-contrast] {
+  filter: contrast(0.8) brightness(1.2);
+}
+
+body[data-a11y-contrast] {
+  filter: contrast(1.15) saturate(1.1);
+}
+
+body[data-a11y-monochrome] {
+  filter: grayscale(1);
+}
+
+body[data-a11y-low-saturation] {
+  filter: saturate(0.5);
+}
+
+body[data-a11y-high-saturation] {
+  filter: saturate(1.5);
+}
+
+/* Text Adjustments */
+body[data-a11y-readable-font] {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif !important;
+}
+
+body[data-a11y-readable-font] * {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif !important;
+}
+
+body[data-a11y-highlight-titles] h1,
+body[data-a11y-highlight-titles] h2,
+body[data-a11y-highlight-titles] h3,
+body[data-a11y-highlight-titles] h4,
+body[data-a11y-highlight-titles] h5,
+body[data-a11y-highlight-titles] h6,
+body[data-a11y-highlight-titles] [role="heading"],
+body[data-a11y-highlight-titles] .MuiTypography-h1,
+body[data-a11y-highlight-titles] .MuiTypography-h2,
+body[data-a11y-highlight-titles] .MuiTypography-h3,
+body[data-a11y-highlight-titles] .MuiTypography-h4,
+body[data-a11y-highlight-titles] .MuiTypography-h5,
+body[data-a11y-highlight-titles] .MuiTypography-h6 {
+  background-color: rgba(255, 255, 0, 0.3) !important;
+  padding: 2px 4px !important;
+  border-radius: 3px !important;
+}
+
+body[data-a11y-highlight-links] a,
+body[data-a11y-highlight-links] button,
+body[data-a11y-highlight-links] [role="button"],
+body[data-a11y-highlight-links] [tabindex] {
+  outline: 2px solid rgba(0, 123, 255, 0.6) !important;
+  outline-offset: 2px !important;
+}
+
+body[data-a11y-text-magnifier] {
+  transform: scale(1.1);
+  transform-origin: top left;
+}
+
+/* Text Alignment */
+body[data-a11y-align-left] {
+  text-align: left !important;
+}
+
+body[data-a11y-align-left] * {
+  text-align: left !important;
+}
+
+body[data-a11y-align-center] {
+  text-align: center !important;
+}
+
+body[data-a11y-align-center] * {
+  text-align: center !important;
+}
+
+body[data-a11y-align-right] {
+  text-align: right !important;
+}
+
+body[data-a11y-align-right] * {
+  text-align: right !important;
+}
+
+/* Motion */
+body[data-a11y-reduce-motion] *,
+body[data-a11y-reduce-motion] *::before,
+body[data-a11y-reduce-motion] *::after {
+  transition: none !important;
+  animation: none !important;
+  scroll-behavior: auto !important;
+}
+
+/* Ensure all components respect accessibility settings */
+body[data-a11y-panel-open] * {
+  filter: none !important;
+}
+
+/* Override any component-specific styles that might interfere */
+body[data-a11y-contrast] *,
+body[data-a11y-dark-contrast] *,
+body[data-a11y-light-contrast] *,
+body[data-a11y-monochrome] *,
+body[data-a11y-low-saturation] *,
+body[data-a11y-high-saturation] * {
+  filter: inherit !important;
+}
+
+/* Ensure Material-UI components respect accessibility */
+body[data-a11y-readable-font] .MuiTypography-root,
+body[data-a11y-readable-font] .MuiButton-root,
+body[data-a11y-readable-font] .MuiTextField-root,
+body[data-a11y-readable-font] .MuiCard-root {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif !important;
+}
