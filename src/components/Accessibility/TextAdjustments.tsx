@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Typography, Stack, Button, Card, CardContent, Grid } from '@mui/material';
+import { Box, Typography, Button, Card, CardContent } from '@mui/material';
 import { FontDownload, Title, Link, ZoomIn } from '@mui/icons-material';
 
 interface TextAdjustmentsProps {

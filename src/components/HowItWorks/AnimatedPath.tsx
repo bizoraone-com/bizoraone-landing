@@ -256,7 +256,7 @@ export default function AnimatedPath({ containerRef, iconRefs }: Props) {
     return () => window.removeEventListener('resize', checkScreenSize);
   }, [d, prefersReducedMotion]);
 
-  const penPos = useMemo(() => getPenPosition(penPosition), [penPosition, d]);
+  const penPos = useMemo(() => getPenPosition(penPosition), [penPosition, getPenPosition]);
   
   const currentPenPos = penPos.x > 0 && penPos.y > 0 && !isNaN(penPos.x) && !isNaN(penPos.y) 
     ? penPos 

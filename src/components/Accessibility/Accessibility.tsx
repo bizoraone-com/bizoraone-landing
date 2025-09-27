@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Box, Fab, Drawer, Typography, Stack, Portal, IconButton, Divider } from '@mui/material';
+import { Box, Fab, Drawer, Typography, Stack, Portal, IconButton } from '@mui/material';
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 import CloseIcon from '@mui/icons-material/Close';
 import RefreshIcon from '@mui/icons-material/Refresh';
@@ -117,7 +117,7 @@ export default function Accessibility() {
     }
   }, [open]);
 
-  const handleChange = (key: string, value: any) => {
+  const handleChange = (key: string, value: boolean | number) => {
     setSettings(prev => ({ ...prev, [key as keyof A11ySettings]: value }));
   };
 

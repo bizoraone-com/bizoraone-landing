@@ -1,7 +1,7 @@
 'use client';
 
 import { Box, Typography, Button, Card, CardContent } from '@mui/material';
-import { Speed, Accessibility } from '@mui/icons-material';
+import { Speed } from '@mui/icons-material';
 
 interface MotionAdjustmentsProps {
   settings: {

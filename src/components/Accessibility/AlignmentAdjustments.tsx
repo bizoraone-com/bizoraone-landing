@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Typography, Stack, Button, Card, CardContent, Grid } from '@mui/material';
+import { Box, Typography, Button, Card, CardContent } from '@mui/material';
 import { FormatAlignLeft, FormatAlignCenter, FormatAlignRight } from '@mui/icons-material';
 
 interface AlignmentAdjustmentsProps {

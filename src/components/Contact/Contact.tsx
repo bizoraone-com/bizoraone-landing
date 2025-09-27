@@ -9,9 +9,8 @@ import {
 } from '@mui/icons-material';
 import AnimatedSection from '@/components/AnimatedSection';
 import { useLanguage } from '@/components/Language';
-import Social from './Social';
 
-const getContactActions = (t: any) => [
+const getContactActions = (t: (key: string) => string) => [
   {
     id: 'waitlist',
     icon: PersonAdd,

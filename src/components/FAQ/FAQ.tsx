@@ -1,7 +1,7 @@
 'use client';
 
 import { Box, Container, Typography, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
-import { ExpandMore, Add, Remove } from '@mui/icons-material';
+import { Add, Remove } from '@mui/icons-material';
 import { useState } from 'react';
 import AnimatedSection from '@/components/AnimatedSection';
 import { useLanguage } from '@/components/Language';
@@ -65,7 +65,7 @@ export default function FAQ() {
               animateOnScroll={true}
               triggerOnce={false}
             >
-              {faqData.map((faq, index) => (
+              {faqData.map((faq) => (
                 <Accordion
                   key={faq.id}
                   expanded={expanded === faq.id}
