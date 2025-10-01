@@ -1,0 +1,34 @@
+name: Print Project IDs (one-off)
+on:
+  workflow_dispatch:
+jobs:
+  ids:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const org = "bizoraone-com";   // שנה אם צריך (owner/org)
+            const projectNumber = 1;        // מספר הפרויקט (מה-URL של ה-Project)
+
+            const query = `
+              query($org:String!, $projectNumber:Int!) {
+                organization(login: $org) {
+                  projectV2(number: $projectNumber) {
+                    id
+                    title
+                    fields(first: 50) {
+                      nodes {
+                        ... on ProjectV2FieldCommon { id name }
+                        ... on ProjectV2SingleSelectField {
+                          id name
+                          options { id name }
+                        }
+                      }
+                    }
+                  }
+                }
+              }`;
+            const res = await github.graphql(query, { org, projectNumber });
+            console.log(JSON.stringify(res, null, 2));
