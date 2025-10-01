@@ -11,7 +11,6 @@ jobs:
           script: |
             const org = "bizoraone-com";   
             const projectNumber = 1;       
-
             const query = `
               query($org:String!, $projectNumber:Int!) {
                 organization(login: $org) {
