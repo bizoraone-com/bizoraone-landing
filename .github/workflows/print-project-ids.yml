@@ -9,8 +9,8 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const org = "bizoraone-com";   // שנה אם צריך (owner/org)
-            const projectNumber = 1;        // מספר הפרויקט (מה-URL של ה-Project)
+            const org = "bizoraone-com";   
+            const projectNumber = 1;       
 
             const query = `
               query($org:String!, $projectNumber:Int!) {
