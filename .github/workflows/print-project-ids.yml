@@ -1,6 +1,8 @@
 name: Print Project IDs (one-off)
 on:
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   ids:
     runs-on: ubuntu-latest
