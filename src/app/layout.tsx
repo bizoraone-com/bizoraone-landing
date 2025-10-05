@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     shortcut: '/bizoraoneLogoIcon.png',
     apple: '/bizoraoneLogoIcon.png',
   },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
